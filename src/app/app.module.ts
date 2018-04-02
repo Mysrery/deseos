@@ -7,7 +7,6 @@ import { ListaDeseosService } from './services/lista-deseos.service';
 
 import { PlaceHolderPipe } from './pipes/placeholder.pipe';
 import { PendientesPipe } from './pipes/pendientes.pipe';
-import { TerminadosPipe } from './pipes/terminados.pipe';
 
 import { TabsPage } from '../pages/tabs/tabs';
 import { PendientesComponent } from '../pages/pendientes/pendientes.component';
@@ -24,7 +23,6 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     PendientesComponent,
     TerminadosComponent,
     PendientesPipe,
-    TerminadosPipe,
     AgregarComponent,
     DetalleComponent,
     PlaceHolderPipe,
